@@ -1,0 +1,33 @@
+.deLado{
+    float: left;
+    width: auto;
+    margin: 5px;
+    border: 1px solid #777;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    margin: 5px;
+    border: 1px solid #777;
+    float: left;
+    width: 33vw;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.descripcion{
+    padding: 15px;
+    text-align: center;
+}
+
+div.deLado:hover, div.galeria:hover {
+    border: 1px solid black;
+}
+
